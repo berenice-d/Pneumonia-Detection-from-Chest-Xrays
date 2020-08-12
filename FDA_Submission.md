@@ -23,7 +23,7 @@ This algorithm was created with a threshold favoring a high recall, meaning that
 
 ### 2. Algorithm Design and Function
 
-![Flowchart](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/flow.png)
+![Flowchart](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/flow.png)
 
 **DICOM Checking Steps:**
 Confirm:
@@ -41,7 +41,7 @@ The algorithm performs the following preprocessing steps on an image data:
 
 **CNN Architecture:**
 CNN based on VGG16, with additional fully-connected layers in the end:
-![CNN](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/CNN.png)
+![CNN](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/CNN.png)
 
 
 ### 3. Algorithm Training
@@ -79,17 +79,17 @@ CNN based on VGG16, with additional fully-connected layers in the end:
 
 
 Training history: the model of epoch 25 was saved.
-![loss](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/history_loss.png)
+![loss](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/history_loss.png)
 
-![accuracy](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/history_acc.png)
+![accuracy](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/history_acc.png)
 
 Curves:
-![loss](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/ROC.png)
+![loss](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/ROC.png)
 
-![accuracy](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/PR.png)
+![accuracy](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/PR.png)
 
 All metrics:
-![metrics](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/all_indic.png)
+![metrics](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/all_indic.png)
 
 **Final Threshold and Explanation:**
 
@@ -128,7 +128,7 @@ If we compare the highest F1 to the high recall performances, we obtain:
 
 From the confusion matrix, we also know that if the model predicts negative, it is correct 91.3% of the time. If the model 
 predicts positive, it is correct 28.3% of the time.
-![confusion_matrix](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/conf.png)
+![confusion_matrix](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/conf.png)
 
 
 ### 4. Databases
@@ -138,7 +138,7 @@ Training dataset consisted of 2290 chest X-ray images, with a 50/50 split betwee
 In the population, the three most prevalent conditions were Infiltration (50% of the patients with a condition), Effusion (45%) and Atelectasis (35%). Among patients with Pneumonia, the most prevalent comorbidities were Infiltration (42% of Pneumonia patients), Edema (24%), Effusion (19%) and Atelectasis (18%). Pneumonia diagnostic was slightly correlated with Edema.
 
 Example images:
-![example](https://github.com/berenice-d/Udacity-AI-for-Healthcare/blob/master/fig/example_img.png)
+![example](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/example_img.png)
 
 **Description of Validation Dataset:** 
 Validation dataset consisted of 1430 chest X-ray images, with a 20/80 split between positive and negative cases to reflect the actual prevalence of pneumonia. The population distribution was the same as for the training set.
