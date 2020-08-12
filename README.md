@@ -1,7 +1,7 @@
 # Pneumonia Detection from Chest X-rays
 Applying AI to 2D Medical Imaging Data
 
-*Project undertaken in the context of Udacity AI for Healthcare program. The text below is modified from [their README](https://github.com/udacity/AIHCND_C2_Starter/blob/master/README.md)*
+*In the context of Udacity AI for Healthcare program. The text below is modified from [their README](https://github.com/udacity/AIHCND_C2_Starter/blob/master/README.md)*
 
 
 ## Project Overview
