@@ -79,16 +79,19 @@ CNN based on VGG16, with additional fully-connected layers in the end:
 
 
 Training history: the model of epoch 25 was saved.
+
 ![loss](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/history_loss.png)
 
 ![accuracy](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/history_acc.png)
 
 Curves:
+
 ![loss](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/ROC.png)
 
 ![accuracy](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/PR.png)
 
 All metrics:
+
 ![metrics](https://github.com/berenice-d/Pneumonia-Detection-from-Chest-Xrays/blob/master/fig/all_indic.png)
 
 **Final Threshold and Explanation:**
